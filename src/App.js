@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+//import FindEmp from "./component/FindAll"
+//import InsertEmp from "./component/insert"
+//import UpdateEmp from "./component/update"
+//import DeleteEmp from "./component/delete"
+//import InsertEmp from "./component/Home";
+import EmployeeDetails from "./component/find"
+//import EmployeeById from "./component/employeeById"
+//import UpdateEmployee from "./component/updateEmployee"
+//import DeleteEmployee from "./component/DeleteEmployee"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  return(
+    <div>
+    
+      <EmployeeDetails/>
+      {/* <EmployeeById/> */}
+      {/* <InsertEmp/> */}
+       {/* <UpdateEmployee/> */}
+       {/* <DeleteEmployee/> */}
     </div>
-  );
-}
-
+  )
+};
 export default App;
